@@ -1,0 +1,30 @@
+{
+  "name": "totammolestiae",
+  "main": "mash",
+  "description": "Functional prototype mixins",
+  "version": "1.0.0",
+  "author": "CorineLang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndyCassin/totammolestiae.git"
+  },
+  "keywords": [
+    "officiis",
+    "aspernatur",
+    "voluptatum",
+    "functional",
+    "mixin"
+  ],
+  "scripts": {
+    "test": "mocha test/test.js",
+    "bench": "node test/bench-native.js && node test/bench-create.js",
+    "min": "uglifyjs mash.js --reserved M --comments -mo mash-min.js"
+  },
+  "devDependencies": {
+    "benchmark": "1.x",
+    "uglify-js": "2.x",
+    "pjs": "5.x",
+    "mocha": "*"
+  }
+}
